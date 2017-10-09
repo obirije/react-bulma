@@ -1,0 +1,22 @@
+@import '~bulma/sass/utilities/initial-variables' 
+
+// 2. Set your own initial variables
+// Update blue
+$blue: #72d0eb
+// Add pink and its invert
+$pink: #43bbe2
+$pink-invert: #fff
+// Add a serif family
+$family-serif: "Merriweather", "Georgia", serif
+$family-sans-serif: 'CircularStd-Book','Lato','Open Sans','Montserrat Regular',sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink
+$primary-invert: $pink-invert
+// Use the existing orange as the danger color
+$danger: $orange
+// Use the new san-serif family
+$family-primary: $family-sans-serif
+
+@import '~bulma/bulma.sass';
