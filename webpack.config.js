@@ -12,7 +12,7 @@ const extractSass = new ExtractTextPlugin({
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   devtool: debug ? "inline-sourcemap" : '',
-  entry: "./js/client.js",
+  entry: "./index.js",
   output: {
     filename: "bundle.min.js",
     path: path.resolve(__dirname, 'src'),
